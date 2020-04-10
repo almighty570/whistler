@@ -1,0 +1,63 @@
+body {
+  font-family: "Baloo Paaji 2", cursive;
+}
+
+.whistle-meter {
+  padding: 10px;
+  color: #00695c;
+}
+
+.whistle-meter h1 {
+  background-color: #26a69a;
+  border-radius: 10px;
+  margin-right: -4px;
+  text-align: center;
+  width: 100px;
+  z-index: 10;
+}
+
+.meter-cover {
+  position: relative;
+  width: 400px;
+  height: 10px;
+  background-color: #00897b;
+  border-radius: 5px;
+
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.threshold {
+  position: absolute;
+  top: -5px;
+  left: 150px;
+  width: 5px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #00695c;
+  z-index: 2;
+}
+
+.threshold span {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  font-size: 12px;
+  line-height: 12px;
+  color: #00695c;
+  text-align: center;
+}
+
+.gas {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 4px;
+  width: 20px;
+  border-radius: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #26a69a;
+  z-index: 1;
+  /* transition: width 0.1s ease-in; */
+}
