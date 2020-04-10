@@ -1,6 +1,6 @@
 # Whistle Counter
 
-An web application to count the numebr of whistles of your pressure cooker
+Web app to count the numebr of whistles of your pressure cooker.
 
 ## Why does it exist
 
